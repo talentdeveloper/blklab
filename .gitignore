@@ -1,0 +1,32 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+.vagrant
+dev
+lib/tmp
+
+node_modules
+npm-debug.log
+
+Vagrantfile
+vagrant_start
+*.psd
+/lib/Gruntfile.js.local.js
+/lib/core/test.js
+
+lib/Dockerfile
+.DS_Store
+public/assets/images
+data
